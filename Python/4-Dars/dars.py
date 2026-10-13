@@ -1,6 +1,7 @@
 olma = 10000
-
 omborda_bormi = [olma]
+kashelok = 7000
 
-kashelok = 5000
-print(olma in omborda_bormi, f"{kashelok % olma} som yetmidi")
+kerakli_pul = olma - kashelok
+
+print(olma in omborda_bormi, f"{kerakli_pul} so'm yetmaydi")
