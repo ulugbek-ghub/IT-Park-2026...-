@@ -55,3 +55,15 @@
 #     print("Harakatlanin")
 # else:
 #     print("Notogri rang")
+
+
+x = 45
+y = 89
+z = 62
+
+if x > y and x > z:
+    print(f"{x} eng katta son")
+elif y > x and y > z:
+    print(f"{y} eng katta son")
+elif z > x and z > y:
+    print(f"{z} end katta son")
