@@ -12,14 +12,24 @@
 #     vaqt -= 1
 # print("Vaqt tugadi")
 
-yigindi = 0
+# yigindi = 0
+
+# while True:
+#     son = int(input("Son kiriting: "))
+
+#     if son == 0:
+#         break
+#     else:
+#         yigindi += son
+
+# print(yigindi)
+
+parol = "1234"
 
 while True:
-    son = int(input("Son kiriting: "))
-
-    if son == 0:
+    kiritilganParol = input("Parol kiriting: ")
+    if kiritilganParol == parol:
+        print("Kirish tasdiqlandi")
         break
     else:
-        yigindi += son
-
-print(yigindi)
+        print("Xato parol")
