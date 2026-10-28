@@ -33,3 +33,4 @@ while True:
         break
     else:
         print("Xato parol")
+        
