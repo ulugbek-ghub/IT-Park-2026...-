@@ -3,3 +3,4 @@
 #     if parol == "open":
 #         print("eshik ochildi")
 #         break
+
